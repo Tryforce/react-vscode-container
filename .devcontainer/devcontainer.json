@@ -1,0 +1,19 @@
+{
+    "name": "React VS Code Remote Container",
+    "dockerFile": "Dockerfile",
+    "appPort": 3000,
+    "extensions": [
+		"coenraads.bracket-pair-colorizer",
+		"dsznajder.es7-react-js-snippets",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "chakrounanas.turbo-console-log",
+        "humao.rest-client"
+	],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh",
+        "prettier.jsxSingleQuote": true,
+        "prettier.singleQuote": true
+    },
+    "postCreateCommand": "yarn"
+}
